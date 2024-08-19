@@ -1,0 +1,14 @@
+metehan ayhan 12136
+Matematik 100 101
+VeriYapilari 100 105
+NesneYonelimli 100 102
+
+ahmet yilmaz 12345
+Matematik 65 101
+NesneYonelimli 75 102
+Algoritmalar 93 103
+
+mehmet aygun 23456
+Algoritmalar 93 103
+GorselProgramlama 86 104
+VeriYapilari 78 105

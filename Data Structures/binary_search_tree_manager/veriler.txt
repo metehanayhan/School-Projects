@@ -1,0 +1,10 @@
+Ahmet	18
+Kadir	21
+İrem	50
+Ali	23
+Metehan	56
+Serhat	45
+Ecem	83
+Tülay	52
+Kadir	21
+Ahmet	18

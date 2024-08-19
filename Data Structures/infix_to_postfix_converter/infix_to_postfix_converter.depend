@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1698508588 source:c:\c dosyalarý\veriyapilariodev3\main.c
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+

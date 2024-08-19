@@ -1,0 +1,7 @@
+Infix		Yigin		Postfix
+3+5*7		Bos.		3
++5*7		+		3
+5*7		Bos.		35
+*7		*		35
+7		Bos.		357
+Bos.		Bos.		357*+
