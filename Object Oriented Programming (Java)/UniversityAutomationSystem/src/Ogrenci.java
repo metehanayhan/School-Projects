@@ -1,5 +1,4 @@
 //METEHAN AYHAN
-//22100011024
 
 public class Ogrenci {
 

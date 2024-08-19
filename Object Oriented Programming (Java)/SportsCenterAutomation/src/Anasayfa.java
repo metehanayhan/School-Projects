@@ -1,5 +1,4 @@
 //METEHAN AYHAN
-//22100011024
 
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
