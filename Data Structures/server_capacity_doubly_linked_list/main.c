@@ -61,10 +61,10 @@ void sirala()
         temp = sunucu->sonraki;
         while (temp != bas)     //listenin sonuna kadar gez.
         {
-            if (temp->kalan_kapasite > sunucu->kalan_kapasite)     //sonraki sunucunun kalan kapasitesi, suanki sunucununkinden büyükse...
+            if (temp->kalan_kapasite > sunucu->kalan_kapasite)     //sonraki sunucunun kalan kapasitesi, suanki sunucununkinden b y kse...
             {
                 int temp_id_no = temp->id_no;
-                float temp_yuk = temp->yuk;                                      // Sunucularýn max k. bilgilerini yer degistiriyoruz
+                float temp_yuk = temp->yuk;                                      // Sunucular n max k. bilgilerini yer degistiriyoruz
                 int temp_max_kapasite = temp->max_kapasite;
                 float temp_kalan_kapasite = temp->kalan_kapasite;
 
@@ -89,7 +89,7 @@ void uretici(float uretilen_yuk)
 {
     if (bas == NULL)
     {
-        printf("Sunucu bulunamadý. Once sunucu ekleyin.\n");
+        printf("Sunucu bulunamad . Once sunucu ekleyin.\n");
         return;
     }
 
@@ -148,7 +148,7 @@ void tuketici(float harcanan_yuk)
             sunucu->kalan_kapasite += harcanan_yuk;
             break;
         }
-        else    //eger harcanan daha fazlaysa yuku sunucudan çikarcaz. hepsi tuketildigi icin 0liycaz..  kapasite max a yukselcek.. ve sonrakine gec
+        else    //eger harcanan daha fazlaysa yuku sunucudan  ikarcaz. hepsi tuketildigi icin 0liycaz..  kapasite max a yukselcek.. ve sonrakine gec
         {
             harcanan_yuk -= sunucu->yuk;
             sunucu->yuk = 0;
@@ -156,13 +156,13 @@ void tuketici(float harcanan_yuk)
             sunucu = sunucu->sonraki;
         }
     }
-    while (sunucu != bas);   //listenin basina dönene kadar tekrarlicak bu islemi
+    while (sunucu != bas);   //listenin basina d nene kadar tekrarlicak bu islemi
 
     sirala();
     printf("Yuk en coktan baslanarak tuketildi, kalan kapasitelere gore en coktan aza listelendi.\n");
 }
 
-// sunucu listesini ekrana yazdýran fonk..
+// sunucu listesini ekrana yazd ran fonk..
 void listele()
 {
     if (bas == NULL)
@@ -183,7 +183,7 @@ void listele()
 int main()
 {
     int sunucu_sayisi;
-    printf("VERI YAPILARI 2. ODEV\nMETEHAN AYHAN\n22100011024\n");
+    printf("VERI YAPILARI 2. ODEV\nMETEHAN AYHAN\n");
     printf("----------------------------------------------\n");
     printf("Baslangicta kac sunucu olacak: ");
     scanf("%d", &sunucu_sayisi);

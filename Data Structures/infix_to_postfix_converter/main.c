@@ -94,7 +94,7 @@ int main() {
     char infix[100];
     char postfix[100];
 
-    printf("VERI YAPILARI 3. ODEV\nMETEHAN AYHAN\n22100011024\n\n");
+    printf("VERI YAPILARI 3. ODEV\nMETEHAN AYHAN\n\n");
     printf("Infix ifadeyi girin: ");
     scanf("%s", infix);
 
