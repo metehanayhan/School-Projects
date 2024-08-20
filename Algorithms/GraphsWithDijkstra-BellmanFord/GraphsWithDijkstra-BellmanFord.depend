@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1710249025 source:c:\users\metehan\documents\okul\2. sinif\2. sýnýf 2. dönem\algorÝtmalar\Ödevler\algoritmalar_odev2\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<limits.h>
+
