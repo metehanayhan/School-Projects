@@ -1,9 +1,5 @@
 //METEHAN AYHAN
 
-//Extra Ozellik:  oyunun basinda ve sonunda kullaniciya bilgilendirici yazilar cikiyor.. bir de son 10 saniyede gorsel degisiyor..
-//konumlar dosyadan okunuyor ve sonuclar dosyaya yazdiriliyor.. ayrica y=100'den basliyor..
-//sonuclar.txt dosyasi build icinde yer aliyor.. build de proje klasorunun icinde bulunuyor galiba yeni guncellemeyle o sekilde degisti.. resource icine koydugumda hata veriyordu cunku..
-//kacirilan karpuz sayisi dialog ekranina bazen gec yazdiriliyor sebebini bilemedim.. ama son ekranda hepsi dogru yaziliyor.. onun disinda eksiksiz calisiyor..
 
 #include "dialog.h"
 #include "ui_dialog.h"
