@@ -1,0 +1,12 @@
+release/kitap_islemleri.o
+release/main.o
+release/mainwindow.o
+release/odunc_alma_islemleri.o
+release/odunc_verme_islemleri.o
+release/uye_islemleri.o
+release/qrc_resource.o
+release/moc_kitap_islemleri.o
+release/moc_mainwindow.o
+release/moc_odunc_alma_islemleri.o
+release/moc_odunc_verme_islemleri.o
+release/moc_uye_islemleri.o

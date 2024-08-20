@@ -1,0 +1,12 @@
+debug/kitap_islemleri.o
+debug/main.o
+debug/mainwindow.o
+debug/odunc_alma_islemleri.o
+debug/odunc_verme_islemleri.o
+debug/uye_islemleri.o
+debug/qrc_resource.o
+debug/moc_kitap_islemleri.o
+debug/moc_mainwindow.o
+debug/moc_odunc_alma_islemleri.o
+debug/moc_odunc_verme_islemleri.o
+debug/moc_uye_islemleri.o
