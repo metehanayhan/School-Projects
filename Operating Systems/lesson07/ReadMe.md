@@ -559,10 +559,6 @@ Bu yapılandırmalar, CFS'nin işlemler arasında adaleti sağlamasını, ağır
     - vruntime Hesaplama
     - Kırmızı-Siyah Ağaç Yapısı
     - G/Ç ve Uyku İşlemleri
-5. Sonuç
-    - Zamanlama Stratejilerinin Özetlenmesi
-    - Gelecek Araştırma Alanları
-
 ---
 
 ## 1. Giriş
@@ -644,15 +640,3 @@ CFS, işlemleri verimli bir şekilde bulmak, eklemek ve silmek için kırmızı-
 CFS, kısa süreli G/Ç ve uyku işlemlerinin CPU'yu tekel haline getirmesini önler. Uyandıktan sonra işlemin vruntime'ı minimum değere ayarlanır.
 
 ---
-
-## 5. Sonuç
-
-### Zamanlama Stratejilerinin Özetlenmesi
-
-Bu kitapta, MLFQ, orantılı paylaşım zamanlayıcıları ve CFS gibi farklı zamanlama stratejilerini inceledik. Her bir stratejinin avantajları ve dezavantajları bulunmaktadır.
-
-### Gelecek Araştırma Alanları
-
-Zamanlama algoritmalarının daha adil ve verimli hale getirilmesi için yeni yöntemlerin araştırılması önemlidir. Gelecekte, işlemci mimarileri ve sistemlerin karmaşıklığı arttıkça, daha etkili zamanlama stratejilerine ihtiyaç duyulacaktır.
-
-[Daha Detaylı](https://www.notion.so/Daha-Detayl-12fe67fac61d8062a289e9b3187fbdf5?pvs=21)
