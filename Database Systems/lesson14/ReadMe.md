@@ -1,7 +1,5 @@
 # 14
 
-[Daha Detaylı](14%2014ee67fac61d807390c7e64ea9d785cb/Daha%20Detayl%C4%B1%2016ce67fac61d8079b564fe1955db18a7.md)
-
 ### **Trigger ve Kullanımı: Ders**
 
 ---

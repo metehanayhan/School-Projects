@@ -80,7 +80,7 @@
 1. **Müşteri Verileri Ekleme:**
     
     ```sql
-    insert into TblMusteriler values ('Eslem','Göl','1111','5374512552','esslemty@gmail.com');
+    insert into TblMusteriler values ('Metehan','Ayhan','1111','9876543210','metehanayhan1213@gmail.com');
     ```
     
     - Müşteri bilgileri tabloya eklenir.

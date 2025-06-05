@@ -136,10 +136,10 @@ SQL Server'da **Procedure**, **Trigger**, ve **Function** gibi programlama yapı
 
 ### **Değişken Tanımlama Kuralları**
 
-1. **@ ile Başlamalıdır:**Tüm değişken isimleri `@` ifadesi ile başlar.
-2. **DECLARE İfadesi Kullanılır:**Değişken tanımlanırken `DECLARE` ifadesi kullanılır.
-3. **İsim ve Veri Türü Belirtilir:**Değişkene bir isim verilir ve veri türü tanımlanır (örneğin, `INT`, `VARCHAR`, `DATE`).
-4. **İlk Değer Atama (Opsiyonel):**Tanımlama sırasında değişkene ilk değer atanabilir.
+1. **@ ile Başlamalıdır:** Tüm değişken isimleri `@` ifadesi ile başlar.
+2. **DECLARE İfadesi Kullanılır:** Değişken tanımlanırken `DECLARE` ifadesi kullanılır.
+3. **İsim ve Veri Türü Belirtilir:** Değişkene bir isim verilir ve veri türü tanımlanır (örneğin, `INT`, `VARCHAR`, `DATE`).
+4. **İlk Değer Atama (Opsiyonel):** Tanımlama sırasında değişkene ilk değer atanabilir.
     - Örneğin: `DECLARE @a INT = 10;`
 
 ---

@@ -75,10 +75,10 @@ create table TblAlisverisKayit(
 ### TblMusteriler Tablosuna Veri Ekleme
 
 ```sql
-insert into TblMusteriler values ('Eslem', 'Göl', '1111', '5374512552', 'esslemty@gmail.com'),
-                                 ('Sena', 'Yaman', '2222', '5374512552', 'senaxyaman@gmail.com'),
-                                 ('Ali', 'Kaya', '3333', '5374512552', 'boshayat@gmail.com'),
-                                 ('Veli', 'Nur', '1245', '5254875652', 'esslemty@gmail.com');
+insert into TblMusteriler values ('Ecem', 'Ayhan', '1111', '9344512552', 'ecmayhn@gmail.com'),
+                                 ('Metehan', 'Ayhan', '2222', '9574567552', 'metehanayhan1213@gmail.com'),
+                                 ('Ali', 'Kaya', '3333', '9371212552', 'alikaya@gmail.com'),
+                                 ('Veli', 'Nur', '1245', '9854875142', 'velinur@gmail.com');
 ```
 
 - `TblMusteriler` tablosuna dört müşteri ekler.

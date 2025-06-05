@@ -68,12 +68,12 @@ alter table siparis add constraint fk_siparis_urun foreign key (u_id) references
 
 ```sql
 insert into musteri(musteri_id, ad, soyad, adres, borc) values
-(1, 'Ali', 'Aydın', 'Konya', 1),
-(2, 'Enes', 'Seven', 'Sivas', 10),
-(3, 'Veli', 'Apaydın', 'Konya', 3),
-(4, 'Ayşe', 'Aydan', 'Konya', 1000),
-(5, 'Ahmet', 'Bidon', 'Konya', 500),
-(6, 'Mehmet', 'Kaya', 'Konya', 1);
+(1, 'Ecem', 'Ayhan', 'Niğde', 1),
+(2, 'Metehan', 'Ayhan', 'Niğde', 10),
+(3, 'Veli', 'Ajram', 'Konya', 3),
+(4, 'Ayşe', 'Ozturk', 'Konya', 1000),
+(5, 'Ahmet', 'Yılmaz', 'Konya', 500),
+(6, 'Nancy', 'Kaya', 'Konya', 1);
 ```
 
 - `musteri` tablosuna altı müşteri ekler.
@@ -95,12 +95,12 @@ insert into urun (urun_id, urun_ad, stok) values
 
 ```sql
 insert into siparis(tablo_id, siparis_id, mus_id, u_id, tarih) values
-(1, 1, 1, 1, '10.10.2023'),
-(2, 1, 1, 2, '10.10.2023'),
-(3, 1, 1, 4, '10.10.2023'),
-(4, 2, 2, 1, '15.10.2023'),
-(5, 3, 4, 3, '20.10.2023'),
-(6, 4, 4, 5, '10.12.2023'),
+(1, 1, 1, 1, '10.10.2024'),
+(2, 1, 1, 2, '10.10.2024'),
+(3, 1, 1, 4, '10.10.2024'),
+(4, 2, 2, 1, '15.10.2024'),
+(5, 3, 4, 3, '20.10.2024'),
+(6, 4, 4, 5, '10.12.2024'),
 (7, 5, 5, 2, '21.10.2021'),
 (8, 5, 5, 4, '10.10.2003'),
 (9, 6, 2, 2, '01.01.2023');
@@ -145,10 +145,10 @@ update urun set stok = stok - 1 where urun_id in
 ```sql
 update urun set stok = stok + 1 where urun_id in
 (select u_id from siparis where mus_id =
-(select musteri_id from musteri where ad = 'Ahmet' and soyad = 'Bidon'));
+(select musteri_id from musteri where ad = 'Ahmet' and soyad = 'Yılmaz'));
 ```
 
-- `Ahmet Bidon` adlı müşterinin sipariş ettiği ürünlerin stoklarını bir artırır.
+- `Ahmet Yılmaz` adlı müşterinin sipariş ettiği ürünlerin stoklarını bir artırır.
 
 ### Borç Güncelleme
 

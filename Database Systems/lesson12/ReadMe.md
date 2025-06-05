@@ -4,8 +4,6 @@
 
 ---
 
-[Daha Detaylı](12%2014ee67fac61d80dea6f1e8cb18cec2d2/Daha%20Detayl%C4%B1%2016be67fac61d80259a99c9b023dd8cdd.md)
-
 ### **1. Stored Procedure Nedir?**
 
 - **Stored Procedure**, SQL'de sık kullanılan sorguları veya işlemleri bir defa yazıp defalarca çağırmanıza olanak sağlayan bir programlama birimidir.
