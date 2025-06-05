@@ -1,6 +1,6 @@
 # 13. Hafta
 
-# Advanced Page Tables Slaytı
+# Advanced Page Tables
 
 ### **Paging ve Sayfa Tablolarının Temelleri**
 
@@ -1776,11 +1776,3 @@ Disk giriş-çıkış operasyonlarını optimize etmek için kullanılan yöntem
     - **Clustering, Grouping, Prefetching** gibi yöntemler, disk I/O işlemlerini daha verimli hale getirir.
 
 ---
-
----
-
----
-
----
-
-[Concurrency](https://www.notion.so/Concurrency-166e67fac61d80af8986f1a44a6dc2b4?pvs=21)
