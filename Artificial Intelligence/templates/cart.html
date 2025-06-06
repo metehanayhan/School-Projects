@@ -1,0 +1,34 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="container">
+    <h1>Sepetim</h1>
+    {% if cart %}
+    <ul class="list-group mb-3">
+        {% for item in cart %}
+        <li class="list-group-item d-flex justify-content-between align-items-center">
+            <div>
+                <img src="{{ url_for('static', filename=item.image.split('static/')[-1]) }}" alt="{{ item.name }}" width="50">
+                <span>{{ item.name }}</span>
+            </div>
+            <div>
+                <span>{{ item.price }} TL</span>
+                <a href="{{ url_for('remove_from_cart', product_id=item.id) }}" class="btn btn-sm btn-danger">
+                    <i class="fas fa-trash"></i>
+                </a>
+            </div>
+        </li>
+        {% endfor %}
+    </ul>
+    <div class="card">
+        <div class="card-body">
+            <h5 class="card-title">Toplam: {{ cart|sum(attribute='price') }} TL</h5>
+            <a href="#" class="btn btn-primary">Ödeme Yap</a>
+            <a href="{{ url_for('recommend_similar') }}" class="btn btn-primary">Benzer Ürünleri Listele</a>
+        </div>
+    </div>
+    {% else %}
+    <p>Sepetiniz boş.</p>
+    {% endif %}
+</div>
+{% endblock %}
